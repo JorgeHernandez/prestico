@@ -1,0 +1,66 @@
+body {
+	font-family: arial;
+	color: #CCC;
+	background: #333;
+}
+header { display:block;}
+
+.row{
+	display: block;
+}
+
+.chapter{
+	display: inline-block;
+	width: 30%;
+	margin: 1em;
+	height: 200px;
+	text-align: center;
+}
+.chapter img{
+	border: 5px solid transparent;
+}
+.chapter img:hover{
+	border: 5px solid #FF0;
+}
+.chapter h3:hover{
+	color: #FF0;
+}
+#logo{
+	width: 40%;
+	float: left;
+	display: inline;
+	height: 240px;
+	background: #999;
+}
+#highlight{
+	width: 59%;
+	float: right;
+	display: inline;
+	height: 240px;
+	background: #666;
+}
+#help{
+	width: 10%;
+	float: right;
+}
+#help:hover{
+	color: #FF0;
+}
+footer{
+	height: 40px;
+}
+#playerContainer{
+	display: none;
+}
+#detailContainer{
+	display: none;
+}
+#helpContainer{
+	display: none;
+}
+#detailTitle{
+	font-size: 36pt;
+}
+#detailDesc{
+
+}
